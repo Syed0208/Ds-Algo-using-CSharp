@@ -8,6 +8,10 @@ namespace TestMyKnowledge
         {
             var minHeap = new PriorityQueueMinHeap();
             minHeap.MinHeapExample();
+
+            var maxHeap = new PriorityQueueMaxHeap();
+            maxHeap.MaxHeapExample();
+
         }
     }
 }
