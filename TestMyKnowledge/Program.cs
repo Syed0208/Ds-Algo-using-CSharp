@@ -7,12 +7,6 @@ namespace TestMyKnowledge
     {
         public string Name { get; set; }
         public int Priority { get; set; }
-# region not needed
-        //public int CompareTo(Task1? other)
-        //{
-        //    return Priority.CompareTo(other?.Priority);
-        //}
-#endregion
     }
     public class Program
     {
